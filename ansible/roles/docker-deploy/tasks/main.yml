@@ -1,0 +1,13 @@
+- name: Pull default Docker image
+  docker_image:
+    name: delphints/task_1
+    source: pull
+
+- name: Start my container
+  docker_container:
+    name: myapplication
+    image: delphints/task_1
+    state: started
+    restart: yes
+    ports:
+     - "443:5000"
