@@ -14,6 +14,8 @@ ANSIBLE:
 
 Созданы 2 роли "docker-install" для установки зависимостей и docker, "docker-deploy" для загрузки и запуска docker контейнера.
 
+Запуск установки ansible/install_docker.sh
+
 VAGRANT:
 
 Тестовый стенд создан с помошью vagrant.
